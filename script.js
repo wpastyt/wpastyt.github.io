@@ -9,10 +9,10 @@ let unlockedTools = {
 };
 
 const UNLOCK_COSTS = {
-    image: 50,
+    image: 30,
     video: 50,
     videoedit: 50,
-    imageedit: 50
+    imageedit: 30
 };
 
 const GENERATION_COSTS = {
@@ -252,4 +252,5 @@ document.getElementById('imageEditInput')?.addEventListener('change', function(e
 });
 
 updateCoinDisplay();
+
 
