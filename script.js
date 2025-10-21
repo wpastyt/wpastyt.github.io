@@ -1,4 +1,4 @@
-let coins = 0;
+let coins = 100;
 let cooldownActive = false;
 let cooldownTime = 15;
 let unlockedTools = {
@@ -252,5 +252,6 @@ document.getElementById('imageEditInput')?.addEventListener('change', function(e
 });
 
 updateCoinDisplay();
+
 
 
